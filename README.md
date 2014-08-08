@@ -3,6 +3,8 @@
 This is a Docker image to serve Hackage packages through an anonymous rsync
 daemon.
 
+It is used at http://hackage.reesd.com/. The whole archive is about 3.6G.
+
 ## Create the Docker image
 
 Assuming you want to name the resulting image `noteed/rsync-hackage`, you can
